@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAIN</Machine>
+    <WindowsUser>Denis</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>4830e85b-b8bb-40bd-89ee-84cba304e704</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>ED50262A2668D76AD5F528F839B23F56E137F860FD33BE0DA8EDAE0B181BBC28</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4830e85b-b8bb-40bd-89ee-84cba304e704_1.0.0.0_neutral__k7tfm8dnpxb46</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4830e85b-b8bb-40bd-89ee-84cba304e704_k7tfm8dnpxb46!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4830e85b-b8bb-40bd-89ee-84cba304e704</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Denis</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-25T23:59:30.713</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\SloppyJoes.exe">
+      <PackagePath>SloppyJoes.exe</PackagePath>
+      <Modified>2014-12-26T00:08:09.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T10:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T10:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T10:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T10:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-12-25T23:59:30.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-12-26T00:08:09.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\SloppyJoes.xr.xml">
+      <PackagePath>SloppyJoes.xr.xml</PackagePath>
+      <Modified>2014-12-26T00:08:09.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Denis\Documents\Visual Studio 2013\Projects\SloppyJoes\SloppyJoes\SloppyJoes\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-25T23:59:30.603</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
