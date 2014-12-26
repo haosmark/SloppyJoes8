@@ -6,14 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
+    
+    <Page.Resources>
+        <local:MenuMaker x:Name="menuMaker"/>
+        <x:String x:Key="AppName">Welcome to Sloppy Joes</x:String>
+    </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="120"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
-        <StackPanel Grid.Row="1" Margin="120, 0" x:Name="pageLayoutStackPanel">
+        <StackPanel Grid.Row="1" Margin="120, 0" DataContext="{StaticResource ResourceKey=menuMaker}">
             <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 20">
                 <StackPanel Margin="0, 0, 20, 0">
                     <TextBlock Style="{StaticResource BodyTextBlockStyle}" Text="Number of items" Margin="0, 0, 0, 10"/>
@@ -21,7 +25,17 @@
                 </StackPanel>
                 <Button x:Name="newMenu" Content="Make a new menu" VerticalAlignment="Bottom" Margin="0, 0, 20, 0" Click="newMenu_Click"/>
             </StackPanel>
-            <ListView ItemsSource="{Binding Menu}" Margin="0, 0, 20, 0" />
+            <ListView ItemsSource="{Binding Menu}" Margin="0, 0, 20, 0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="{Binding Meat}" Foreground="Blue"/><Run Text=" on "/>
+                            <Run Text="{Binding Bread}" FontWeight="Light"/><Run Text=" with "/>
+                            <Run Text="{Binding Condiment}" Foreground="Red" FontWeight="ExtraBold"/>
+                        </TextBlock>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <TextBlock Style="{StaticResource CaptionTextBlockStyle}" Margin="0, 20, 0, 0">
                 <Run Text="This is a menu generated on "/>
                 <Run Text="{Binding GeneratedDate}"/>

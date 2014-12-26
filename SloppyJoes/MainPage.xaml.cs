@@ -22,11 +22,9 @@ namespace SloppyJoes
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        MenuMaker menuMaker = new MenuMaker();
         public MainPage()
         {
             this.InitializeComponent();
-            pageLayoutStackPanel.DataContext = menuMaker;
         }
 
         private void newMenu_Click(object sender, RoutedEventArgs e)
